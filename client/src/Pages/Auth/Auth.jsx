@@ -22,7 +22,7 @@ const Auth = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if(!email && !password){
+        if(!email || !password){
             alert('Enter email and password')
         }
         if(isSignup){
@@ -36,9 +36,9 @@ const Auth = () => {
     }
 
     return (
-        <section class='auth-section'>
+        <section className='auth-section'>
             { isSignup && <AboutAuth />}
-            <div class='auth-container-2'>
+            <div className='auth-container-2'>
                 { !isSignup && <img src={icon} alt='stack overflow' className='login-logo'/>}
                 <form onSubmit={handleSubmit}>
                     {

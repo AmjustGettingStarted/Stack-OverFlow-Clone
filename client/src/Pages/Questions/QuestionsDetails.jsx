@@ -75,7 +75,7 @@ const QuestionsDetails = () => {
                                             <div className="question-details-tags">
                                                 {
                                                     question.questionTags.map((tag) => (
-                                                        <p key={tag}>#{tag}</p>
+                                                        <p key={tag}>{tag}</p>
                                                     ))
                                                 }
                                             </div>

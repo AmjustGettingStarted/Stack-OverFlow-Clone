@@ -89,3 +89,11 @@
     font-size: 13px;
 }
 
+.cb{
+    flex-direction: cloumn;
+    float: right;    
+    justify-content: end;
+
+    align-items: end;
+    padding-top: 200px;
+}
