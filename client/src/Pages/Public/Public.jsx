@@ -6,7 +6,7 @@ const Public = () => {
     <div style={{ marginTop:'50px' }}>
   <ChatEngine
    height="100vh"
-   projectID="2d39e73d-5e7c-4417-95dc-2f5d355f3229"
+   projectID="e8e19e73-fc71-4486-9173-b39e950a3ce9"
    userName="user1"
    userSecret="user1"
    />    
